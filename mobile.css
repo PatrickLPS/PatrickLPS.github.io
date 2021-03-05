@@ -5,7 +5,6 @@ html {
     
 }
 
-
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
     display: flex;
@@ -25,7 +24,7 @@ html {
 
 .marseille img {
     width:100%;
-    height: 110px;
+    height:110px;
     border-radius:20px 20px 0px 0px;
     object-fit: cover;
     box-sizing: border-box;
@@ -85,7 +84,7 @@ order:-1;
 }
 
 .imageplusPopulaires {
-    width:140px;
+    width:130px;
     height:150px;
     border-radius: 20px 0px 0px 20px;
     object-fit:cover;
@@ -101,16 +100,15 @@ order:-1;
 }
 
 .hbg {
-    font: 12px;
+    font:12px;
     background-color: white;
     color: black;
     padding: 3px;
     text-align:left;
     border-radius: 20px;
     margin-bottom:2%;
-    height: 200px;
+    height:200px;
     width:25%;
-   
     justify-content: space-evenly;
     filter: drop-shadow(0 0 0.20rem gray);
 }
@@ -120,10 +118,9 @@ order:-1;
     background-color: white;
     color: black;
     padding:3px;
-    height: 150px;
+    height:150px;
     width:100%;
     margin-bottom:10px;
-   
     border-radius: 20px;
     filter: drop-shadow(0 0 0.20rem gray)
 }
@@ -239,9 +236,8 @@ figure {
 /* Elements */
 .etoiles{font-size: 12px;margin-left:15px;position: absolute;}
 .star{font-size: 12px;margin-left:15px;position: absolute;left:22ex;bottom:20px;}
-.recherche {
-    display: flex;
-}
+.recherche
+{display: flex;}
 
 header {
     display:block;
@@ -261,6 +257,9 @@ article p{ line-height:2px;}
 P {
     font-size: 14px;   
 }
+.info p {
+    font-size:15px;
+}
 .hbg p {
     text-align:left;
     font-size: 14px;
@@ -278,11 +277,9 @@ i {
 }
 
 .fa-star{
-    color: #0065FC;
-    
+    color: #0065FC; 
     
 }
-
 
 .gray {
     color: gray;
@@ -306,27 +303,28 @@ h3 {
     font-size: 16px;
 }
 
-.headerNavLink,
+.headerNavLink1,
+.headerNavLink2,
 .headerSignup {
     font-size: 18px;
-    margin-right: 20px;
     text-decoration: none;}
     
-.headerNavLink{color:black;text-align: center;justify-content: space-evenly;margin-left:18%;width:100%;}
+.headerNavLink1,.headerNavLink2{color:black;;width:50%;text-align: center;border-bottom:solid 3px #F1F4F7;}
 
-.headerSignup{font-weight: bold;color:#0065FC;position: absolute;top:30px;left:72.50%;}
+.headerSignup{font-weight:bold;color:#0065FC;position:absolute;top:30px;left:72.50%;}
 
 a:hover,h3:hover{
     color:#0065fc;
 }
 
-.headerNavLink:hover {
+.headerNavLink1:hover {
     border-bottom: solid 3px #0065fc;
-    color: #0065fc;
-   
+    color: #0065fc; 
 }
-
-
+.headerNavLink2:hover {
+    border-bottom: solid 3px #0065fc;
+    color: #0065fc; 
+}
 .headerNav {
 display: flex;
     justify-content:space-evenly;
@@ -334,7 +332,7 @@ display: flex;
 
 .barreFiltre,
 h2 {
-    display: inline-flex;
+    display:inline-flex;
 }
 
 h2 {
@@ -345,22 +343,20 @@ h2 {
     display: inline-flex;
 }
 
-.barreRecherche{padding: 10px;}
-
-button {
-    
-    font-size:15px;
-    border: black 0px solid;
-    
+input.barreRecherche{padding:10px;border:solid 1px lightgray; font-weight: bold;font-size:16px;
 }
+.fa-chart-line{position:absolute;left:92%;}
 
 button {
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: white;
     font-family: "Raleway", "Sans serif";
-    cursor: pointer;
+    cursor: pointer;border: black 0px solid;
 }
+.fa-search{font-size:18px;
+padding-left:14px;
+padding-right:14px;}
 
 .fa-money-bill-wave,
 .fa-child,
@@ -368,46 +364,42 @@ button {
 .fa-dog,
 .fa-info {
     font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
     background-color: #DEEBFF;
-    border-radius: 50%;
-    padding: 8px;
+    border-radius:50%;
+    padding:8px;
     width: 22px;
     text-align: center;
     color: #0065FC;
 }
 .fa-info{
-    font-size: 16px;
+    font-size:12px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: white;
     border-radius: 100%;
     border: 1px solid lightgray;
-    padding: 8px;
+    padding:4px;
     width:16px;
     text-align: center;
     color: #0065FC;
 }
-
+::placeholder{color: black;}
 .titre {
     margin: auto;
     font-weight: bold;
 }
 
 .barreFiltre {
-    border: 2px solid;
-    border-radius: 24px 24px 24px 24px;
+    border:2px solid;
+    border-radius:24px 24px 24px 24px;
     border-color:#d9d9d9;
     text-align: center;
-    margin: 0px;
-    height: auto;
     padding-top:0px;
     padding-bottom:0px;
     padding-left:0px;
-    padding-right:0px;
-    min-width: 200px;
-    max-width: 220px;
+    padding-right:8px;
+    margin-bottom:5px;
+    min-width:45%;
 }
 
 div.titre {
@@ -417,14 +409,10 @@ div.titre {
 }
 
 .nomfiltres {
-    font-size: 20px;
+    font-size: 18px;
+    display: flex;
+
 }
-
-.barreFiltre {
-    margin-bottom: 5px;
-}
-
-
 /* Footer */
 
 footer {
@@ -437,9 +425,11 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+    margin-bottom:15px;
 }
-.interieurblockFooter{display: flex;flex-direction: column;}
+.interieurblockFooter{display: flex;flex-direction: column;margin-top:20px;}
 .blockFooter {
+    margin-left:20px;
     display: flex;
     justify-content: space-evenly;
     font-size: 16px;

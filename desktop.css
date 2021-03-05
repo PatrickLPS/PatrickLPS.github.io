@@ -61,16 +61,19 @@ body {
     padding-top:20px;
 }
 
-.popuTitre,
-.afficher {
+.popuTitre{
+    padding-left:4%;
+}
+.afficher{
     padding-left:2%;
 }
+.fa-chart-line{position:absolute;left:94%;}
 
 .activitesTitre,
 .hbgtitre {
     min-width: 50%;
     box-sizing: border-box;
-padding-left:2%;
+padding-left:3%;
 }
 
 .imageplusPopulaires {
@@ -227,34 +230,39 @@ P {
 }
 
 .recherche {
-    display: block;
+    display:flex;
 }
 .head,.info,.filtres{margin-left:2%;margin-right:2%;}
 
 header {
     display: flex;margin-left:2%;margin-left:2%;
 }
-input::placeholder{
-        color:black;
-        font-size:16px;
-        font-weight:bold;
-      }
 
-.headerNavLink,
-.headerSignup {
-    font-size: 18px;
-    padding:2rem;
-    text-decoration: none;padding-top:50px;}
+           
+    .headerNavLink1,
+    .headerNavLink2,
+    .headerSignup {
+        font-size: 18px;
+        padding:2rem;
+        text-decoration: none;padding-top:50px;}
+    
+    .headerNavLink{color:black}
+    .headerSignup{font-weight:bold;color:#0065FC;}
+    a:hover {
+        color:  #0065fc;
+    }
+    .headerNavLink2:hover {
+        border-top: solid 2px #0065fc;
+        color: #0065fc;
+    }
+    .headerNavLink1:hover {
+        border-top: solid 2px #0065fc;
+        color: #0065fc;
+    }
 
-.headerNavLink{color:black}
-.headerSignup{font-weight:bold;color:#0065FC;}
-a:hover {
-    color:  #0065fc;
-}
-.headerNavLink:hover {
-    border-top: solid 3px #0065fc;
-    color: #0065fc;
-}
+    .headerNav{
+        display:flex;position:sticky;left:65%;
+          }
 .info p {
     font-size:15px;
 }
@@ -293,11 +301,7 @@ i {
     text-decoration: black;
 }
 
-.headerNav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    flex-wrap: wrap-reverse;}
+
 
 .hbgtitre,.popuTitre{
     display:flex;
@@ -318,13 +322,14 @@ h2.activitesTitre{
 }
 
 .barreRecherche {
-    padding: 12px;
+    padding:12px;
     font-size: 16px;
-    border: white;
+    border:solid 1px lightgray;
     color:#000000;
     font-weight: bold;
     
 }
+::placeholder{color: black;}
 
 button {
     background-color: #0065FC;
@@ -332,10 +337,16 @@ button {
     color: white;
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
-    padding: 12px;
+    padding:16px;
     font-size: 16px;
     border: black 0px solid;
 }
+.fa-search::before{visibility: hidden;
+
+    display: none;}
+button::after{
+    content: "rechercher";
+    }
 
 .fa-money-bill-wave,
 .fa-child,
