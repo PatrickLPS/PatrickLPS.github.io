@@ -234,8 +234,9 @@ figure {
 
 
 /* Elements */
-.etoiles{font-size: 12px;margin-left:15px;position: absolute;}
-.star{font-size: 12px;margin-left:15px;position: absolute;left:42%;bottom:20px;}
+.etoiles{font-size:12px;margin-left:15px;position:absolute;}
+.star{font-size:12px;margin-left:4%;position: absolute;left:11em;bottom:5%;}
+
 .recherche
 {display: flex;}
 
