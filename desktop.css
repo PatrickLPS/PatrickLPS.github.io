@@ -301,8 +301,6 @@ i {
     text-decoration: black;
 }
 
-
-
 .hbgtitre,.popuTitre{
     display:flex;
 padding-bottom:2%;}
@@ -331,7 +329,7 @@ h2.activitesTitre{
 }
 ::placeholder{color: black;}
 
-button {
+button{
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: white;
@@ -348,7 +346,7 @@ button.fa{font-weight:bold;}
     display: none;}
 
 button::after{
-    content: "Rechercher";font-family:"Raleway";
+    content:"Rechercher";font-family:"Raleway";
     }
 
 .fa-money-bill-wave,
