@@ -341,7 +341,8 @@ button {
     font-size: 16px;
     border: black 0px solid;
 }
-.fa-search::before{visibility: hidden;
+
+.fa-search::before{visibility: hidden; 
 
     display: none;}
 button::after{

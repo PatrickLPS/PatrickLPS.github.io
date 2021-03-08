@@ -346,6 +346,7 @@ button.fa{font-weight:bold;}
 .fa-search::before{visibility: hidden;
 
     display: none;}
+    
 button::after{
     content: "Rechercher"; font-family: "Raleway";
     }
