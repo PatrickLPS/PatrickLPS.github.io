@@ -338,14 +338,16 @@ button {
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
     padding:16px;
-    font-size: 16px;
+    font-size:16px;
     border: black 0px solid;
 }
+
+button.fa{font-weight:bold;}
 .fa-search::before{visibility: hidden;
 
     display: none;}
 button::after{
-    content: "rechercher";
+    content: "Rechercher"; font-family: "Raleway";
     }
 
 .fa-money-bill-wave,

@@ -335,7 +335,7 @@ button {
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: white;
-    font-family: "Raleway", "Sans serif";
+    font-family: "Raleway";
     cursor: pointer;
     padding:16px;
     font-size: 16px;
@@ -345,7 +345,7 @@ button {
 
     display: none;}
 button::after{
-    content: "rechercher";
+    content: "Rechercher"; font-family: "Raleway";
     }
 
 .fa-money-bill-wave,
