@@ -346,7 +346,7 @@ button {
 
     display: none;}
 button::after{
-    content: "Rechercher"; font-family: "Raleway";
+    content: "Rechercher"; font-family:"Raleway";
     }
 
 .fa-money-bill-wave,
