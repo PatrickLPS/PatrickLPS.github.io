@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 html,
 body {
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: "Raleway";
-    margin-top:0px;
-    margin-left:0px;
-    margin-right:0px;
-    line-height:normal;
+    margin-top: 10px;
+    
 }
 
 
@@ -14,10 +14,6 @@ body {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
-    margin-left:1.50%;
-    margin-right:1.50%;
-    margin-bottom:4%;
-    margin-top:1%;
 }
 
 .hebergements {
@@ -28,7 +24,6 @@ body {
     flex-wrap: wrap;
     border-radius:20px;
     width:65%;margin-right:1%;
-    padding-top:15px;
 }
 
 .hbg img {
@@ -58,22 +53,19 @@ body {
     box-sizing: border-box;
     justify-content: space-evenly;
     margin-left:1%;  
-    padding-top:20px;
 }
 
-.popuTitre{
-    padding-left:4%;
+.popuTitre,
+.afficher {
+    
+    padding-left: 5%;
 }
-.afficher{
-    padding-left:2%;
-}
-.fa-chart-line{position:absolute;left:94%;}
 
 .activitesTitre,
 .hbgtitre {
     min-width: 50%;
     box-sizing: border-box;
-padding-left:3%;
+    padding-left: 5%;
 }
 
 .imageplusPopulaires {
@@ -117,22 +109,24 @@ padding-left:3%;
     filter: drop-shadow(0 0 0.20rem gray)
 }
 
+
 /* activités */
 
 .activites figcaption {
     background-color: white;
-    border-radius:20px;
-    padding-top:4px;
-    padding-bottom:4px;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-top: 0px;
     filter: drop-shadow(0 0 0.20rem gray);
     display:flex;
+    width: 100%;
     box-sizing: border-box;
 }
 
 .blockActivites1 img {
-    height:400px;
-    width:37ex;
+    height: 400px;
+    width:35ex;
     object-fit: cover;
 }
 
@@ -150,7 +144,7 @@ padding-left:3%;
 
 .blockActivites4 img {
     height: 400px;
-    width:37ex;
+    width:35ex;
     object-fit: cover;
 }
 
@@ -170,8 +164,7 @@ padding-left:3%;
 .activites {
     background-color: white;
     border-radius: 20px;
-   margin-left:auto;
-   margin-right:auto;
+    
 }
 
 .touslesblocksactivites {
@@ -219,8 +212,8 @@ P {
 }
 
 
-.etoiles{font-size:12px;margin-left:5px;position: absolute;bottom:10px;}
-.star{font-size:12px;margin-left:15px;position: absolute;left:34%;bottom:10px;}
+.etoiles{font-size: 12px;margin-left:5px;position: absolute;bottom:10px;}
+.star{font-size: 12px;margin-left:15px;position: absolute;left:34%;bottom:10px;}
 
 .hbg p {
     text-align:left;
@@ -229,42 +222,32 @@ P {
     line-height:2px;
 }
 
+
 .recherche {
-    display:flex;
+    display: flex;
 }
-.head,.info,.filtres{margin-left:2%;margin-right:2%;}
 
 header {
-    display: flex;margin-left:2%;margin-left:2%;
+    display: flex;
 }
 
-           
-    .headerNavLink1,
-    .headerNavLink2,
-    .headerSignup {
-        font-size: 18px;
-        padding:2rem;
-        text-decoration: none;padding-top:50px;}
-    
-    .headerNavLink{color:black}
-    .headerSignup{font-weight:bold;color:#0065FC;}
-    a:hover {
-        color:  #0065fc;
-    }
-    .headerNavLink2:hover {
-        border-top: solid 2px #0065fc;
-        color: #0065fc;
-    }
-    .headerNavLink1:hover {
-        border-top: solid 2px #0065fc;
-        color: #0065fc;
-    }
+.headerNavLink,
+.headerSignup {
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;}
 
-    .headerNav{
-        display:flex;position:sticky;left:65%;
-          }
+.headerNavLink{color:black}
+.headerSignup{font-weight: bold;color:#0065FC}
+a:hover {
+    color:  #0065fc;
+}
+.headerNavLink:hover {
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+}
 .info p {
-    font-size:15px;
+    font-size: 18px;
 }
 
 .navp p {
@@ -301,59 +284,43 @@ i {
     text-decoration: black;
 }
 
-.hbgtitre,.popuTitre{
-    display:flex;
-padding-bottom:2%;}
-
-.barreFiltre{display:inline-flex;}
-
-h2{font-size:18px;}
-h2.activitesTitre{
-    display: block;
-    margin-top:0px;
-    margin-bottom:0px;
-   
+.headerNav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap-reverse;}
+.barreFiltre,
+h2 {
+    display:inline-flex;
 }
+h2{font-size:18px;}
 
 .info {
     display: inline-flex;
 }
 
-.barreRecherche {
-    padding:12px;
+.barreRecherche,
+button {
+    padding: 12px;
     font-size: 16px;
-    border:solid 1px lightgray;
-    color:#000000;
-    font-weight: bold;
-    
-}
-::placeholder{color: black;}
-
-button{
-    background-color: #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    color: white;
-    font-family: "Raleway";
-    cursor: pointer;
-    padding:16px;
-    font-size:16px;
     border: black 0px solid;
 }
 
-button.fa{font-weight:bold;}
-.fa-search::before{visibility: hidden;
-
-    display: none;}
-
-button::after{
-    content:"Rechercher";font-family:"Raleway";
-    }
+button {
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    font-family: "Raleway", "Sans serif";
+    cursor: pointer;
+}
 
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
 .fa-dog {
     font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: #DEEBFF;
     border-radius: 50%;
     padding: 8px;
@@ -362,13 +329,13 @@ button::after{
     color: #0065FC;
 }
 .fa-info{
-    font-size:12px;
+    font-size: 16px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: white;
     border-radius: 100%;
     border: 1px solid lightgray;
-    padding:4px;
+    padding: 8px;
     width:16px;
     text-align: center;
     color: #0065FC;
@@ -379,16 +346,14 @@ button::after{
 }
 
 .barreFiltre {
-    border: 2px solid;
-    border-radius: 24px 24px 24px 24px;
-    border-color:#d9d9d9;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-color: #DEEBFF;
     text-align: center;
     margin: 0px;
     height: auto;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:0px;
-    padding-right:0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     min-width: 200px;
     max-width: 220px;
 }
@@ -400,28 +365,25 @@ div.titre {
 }
 
 .nomfiltres {
-    font-size:18px;
-    display: inline-flex;
+    font-size: 22px;
 }
-.filtres{margin-top:1%;margin-bottom:1%;}
+
 
 /* Footer */
 
 footer {
     background-color: #F2F2F2;
-    width:100%;
-    height:50%;  
+    width: 100%;
+    height:200px;
 }
 
 footer a {
     text-decoration: none;
     color: black;
-    margin-bottom:15px;
 }
-.interieurblockFooter{display: flex;flex-direction: column;width:25%;margin-left:5%;
-}
+.interieurblockFooter{display: flex;flex-direction: column;}
 .blockFooter {
     display: flex;
-    justify-content:left;
-    font-size: 16px;
-    }
+    justify-content: space-evenly;}
+
+
