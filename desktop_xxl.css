@@ -191,7 +191,6 @@ figure {
     border-top-left-radius: 20px;
     flex-wrap: wrap;
     display: flex;
-    max-width:100%;
     padding: 0px;
     border-top-right-radius: 20px;
     object-fit: cover;}

@@ -199,6 +199,7 @@ P {
 header {
     display: flex;
 }
+.logo{margin-left:10px;}
 .headerNavLink1,
 .headerNavLink2,
 .headerSignup {
