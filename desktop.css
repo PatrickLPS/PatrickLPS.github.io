@@ -322,8 +322,9 @@ button {
     margin-left: 0px;
     margin-right: 0px;
     background-color: #DEEBFF;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 8px;
+    justify-content:center;
     width: 25px;
     text-align: center;
     color: #0065FC;
