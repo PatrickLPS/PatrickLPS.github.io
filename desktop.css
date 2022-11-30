@@ -314,6 +314,8 @@ button {
     cursor: pointer;
 }
 
+.filtre{display: flex; }
+
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
@@ -322,13 +324,16 @@ button {
     margin-left: 0px;
     margin-right: 0px;
     background-color: #DEEBFF;
-    border-radius: 100%;
-    padding: 8px;
-    justify-content:center;
-    width: 25px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
     text-align: center;
     color: #0065FC;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .fa-info{
     font-size: 16px;
     margin-left: 5px;
@@ -352,13 +357,13 @@ button {
     border-color: #DEEBFF;
     text-align: center;
     margin: 0px;
-    height: auto;
     padding-top: 0px;
     padding-bottom:0px;
     padding-left: 0px;
     padding-right:0px;
     min-width: 200px;
     max-width: 220px;
+
 }
 
 div.titre {
