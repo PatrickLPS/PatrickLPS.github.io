@@ -8,6 +8,7 @@ body {
     
 }
 
+img{width:90px;}
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -314,34 +315,28 @@ button {
     cursor: pointer;
 }
 
-.filtre{display: flex; }
-
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
 .fa-dog {
     font-size: 22px;
-    margin-left: 0px;
-    margin-right: 0px;
+   
+    margin-right: 5px;
     background-color: #DEEBFF;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    padding: 8px;
+    width: 25px;
     text-align: center;
     color: #0065FC;
-   display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
 .fa-info{
-    font-size: 16px;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size:12px;
+    margin-left:5px;
+    margin-right:5px;
     background-color: white;
     border-radius: 100%;
     border: 1px solid lightgray;
-    padding: 8px;
+    padding:4px;
     width:16px;
     text-align: center;
     color: #0065FC;
@@ -352,18 +347,18 @@ button {
 }
 
 .barreFiltre {
-    border-style: solid;
+    border: 2px solid;
     border-radius: 24px 24px 24px 24px;
-    border-color: #DEEBFF;
+    border-color:#d9d9d9;
     text-align: center;
     margin: 0px;
-    padding-top: 0px;
+    height: auto;
+    padding-top:0px;
     padding-bottom:0px;
-    padding-left: 0px;
+    padding-left:0px;
     padding-right:0px;
     min-width: 200px;
     max-width: 220px;
-
 }
 
 div.titre {
