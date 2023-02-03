@@ -5,6 +5,8 @@ html {
     
 }
 
+img{width:90px;}
+
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
     display: flex;
@@ -381,5 +383,4 @@ footer a {
     justify-content: space-evenly;
     font-size: 16px;
     flex-direction: column;
-    
 }
