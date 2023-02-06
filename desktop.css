@@ -8,7 +8,8 @@ body {
     
 }
 
-img{width:90px;}
+.logo img{width:90px;}
+.fbox{display: flex;align-items: center;}
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -224,10 +225,10 @@ P {
 }
 
 
+ .searchbarre .boxS{display:flex}
 .recherche {
-    display: flex;
-}
-
+    display: flex;}
+   
 header {
     display: flex;
 }
@@ -240,9 +241,11 @@ header {
 
 .headerNavLink{color:black}
 .headerSignup{font-weight: bold;color:#0065FC}
+
 a:hover {
     color:  #0065fc;
 }
+
 .headerNavLink:hover {
     border-top: solid 3px #0065fc;
     color: #0065fc;
@@ -277,11 +280,11 @@ section a {
     width: auto;
     height: auto;
     background-color: lightgray;
-    padding: 16px;
+    padding: 18px;
     border-radius: 20px 0px 0px 20px;
 }
 
-i {
+i{
     text-decoration: black;
 }
 
@@ -299,12 +302,13 @@ h2{font-size:18px;}
 .info {
     display: inline-flex;
 }
+::placeholder{color: black;padding-left:12px;}
 
 .barreRecherche,
 button {
-    padding: 12px;
     font-size: 16px;
-    border: black 0px solid;
+    font-weight: bold;
+    border:solid 1px lightgray;
 }
 
 button {
@@ -313,6 +317,10 @@ button {
     color: white;
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
+}
+.fa-search::before {
+    content: "\f002";
+    display: none;
 }
 
 .fa-money-bill-wave,
