@@ -8,8 +8,12 @@ body {
     
 }
 
+<<<<<<< HEAD
 .logo img{width:90px;}
 .fbox{display: flex;align-items: center;}
+=======
+img{width:90px;}
+>>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -318,10 +322,13 @@ button {
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
 }
+<<<<<<< HEAD
 .fa-search::before {
     content: "\f002";
     display: none;
 }
+=======
+>>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
 
 .fa-money-bill-wave,
 .fa-child,
