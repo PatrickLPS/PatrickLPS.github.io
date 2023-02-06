@@ -7,12 +7,13 @@ body {
     margin-top:10px;
 }
 
-<<<<<<< HEAD
+
 .logo img{width:90px;}
+
 .fbox{display: flex;align-items: center;}
-=======
+
 img{width:90px;}
->>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
+
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -172,10 +173,6 @@ P {
     line-height:2px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
 .recherche {
     display: flex;
 }
@@ -223,13 +220,10 @@ section a {
     width: auto;
     height: auto;
     background-color: lightgray;
-<<<<<<< HEAD
     padding: 18px;
-=======
-    padding: 16px;
->>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
     border-radius: 20px 0px 0px 20px;
 }
+
 i {
     text-decoration: black;
 }
@@ -243,20 +237,18 @@ h2 {
     display:inline-flex;
 }
 h2{font-size:18px;}
+
 .info {
     display: inline-flex;
 }
-.fa-chart-line{position:absolute;left:92%;}
-<<<<<<< HEAD
-
 ::placeholder{color: black;padding-left:12px;}
 
 .barreRecherche,
 button {
     font-size: 16px;
     font-weight: bold;
-    border:solid 1px lightgray;
-=======
+    border:solid 1px lightgray;}
+
 .barreRecherche {
     padding:12px;
     font-size: 16px;
@@ -269,10 +261,10 @@ button {
 
 .barreRecherche,
 button {
-    padding: 12px;
+    
     font-size: 16px;
     border: black 0px solid;
->>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
+
 }
 
 button {
@@ -282,13 +274,10 @@ button {
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
 }
-<<<<<<< HEAD
 .fa-search::before {
     content: "\f002";
     display: none;
 }
-=======
->>>>>>> 9960ddd3b01ce7116dd1f6c6a7696b852f17790f
 
 .fa-money-bill-wave,
 .fa-child,
