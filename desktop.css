@@ -298,8 +298,9 @@ i{
 
 .barreFiltre,
 h2 {
-    display:inline-flex;
+    display:inline-flex;  
 }
+
 h2{font-size:18px;}
 
 .info {
@@ -372,7 +373,11 @@ button {
     padding-right:0px;
     min-width: 200px;
     max-width: 220px;
+    cursor: pointer;
+    transition:1s;
+    margin-left: 10px;
 }
+.barreFiltre:hover{transform:scale(1.08);color:blue;}
 
 div.titre {
     margin-right: auto;

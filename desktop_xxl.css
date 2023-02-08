@@ -3,12 +3,15 @@ html,
 body {
     margin-right: 10px;
     margin-left: 10px;
-    font-family: "Raleway";
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
 
-img{width:90px;}
+*{font-family: "Raleway";}
+h3{font-size:16px;}
+
+.logo img{width:90px;}
+.fbox{display: flex;align-items: center;}
+.Popularites .popuTitre{display: flex;justify-content:space-between;}
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -70,7 +73,7 @@ img{width:90px;}
 }
 
 .imageplusPopulaires {
-    width:33%;
+    width:35%;
     height: 130px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -224,10 +227,10 @@ P {
 }
 
 
+ 
 .recherche {
-    display: flex;
-}
-
+    display: flex;}
+   
 header {
     display: flex;
 }
@@ -240,9 +243,11 @@ header {
 
 .headerNavLink{color:black}
 .headerSignup{font-weight: bold;color:#0065FC}
+
 a:hover {
     color:  #0065fc;
 }
+
 .headerNavLink:hover {
     border-top: solid 3px #0065fc;
     color: #0065fc;
@@ -277,11 +282,11 @@ section a {
     width: auto;
     height: auto;
     background-color: lightgray;
-    padding: 16px;
+    padding: 18px;
     border-radius: 20px 0px 0px 20px;
 }
 
-i {
+i{
     text-decoration: black;
 }
 
@@ -290,21 +295,24 @@ i {
     justify-content: flex-end;
     width: 100%;
     flex-wrap: wrap-reverse;}
+
 .barreFiltre,
 h2 {
-    display:inline-flex;
+    display:inline-flex;  
 }
+
 h2{font-size:18px;}
 
 .info {
     display: inline-flex;
 }
+::placeholder{color: black;padding-left:12px;}
 
 .barreRecherche,
 button {
-    padding: 12px;
     font-size: 16px;
-    border: black 0px solid;
+    font-weight: bold;
+    border:solid 1px lightgray;
 }
 
 button {
@@ -314,6 +322,12 @@ button {
     font-family: "Raleway", "Sans serif";
     cursor: pointer;
 }
+
+.fa-search::before {
+    content: "\f002";
+    display: none;
+}
+ 
 
 .fa-money-bill-wave,
 .fa-child,
@@ -359,7 +373,11 @@ button {
     padding-right:0px;
     min-width: 200px;
     max-width: 220px;
+    cursor: pointer;
+    transition:1s;
+    margin-left: 10px;
 }
+.barreFiltre:hover{transform:scale(1.08);color:blue;}
 
 div.titre {
     margin-right: auto;
@@ -388,3 +406,5 @@ footer a {
 .blockFooter {
     display: flex;
     justify-content: space-evenly;}
+
+
