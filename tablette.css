@@ -3,16 +3,15 @@ html,
 body {
     margin-right:10px;
     margin-left:10px;
-    font-family: "Raleway";
     margin-top:10px;
 }
 
+*{font-family: "Raleway";}
+h3{font-size:16px;}
 
 .logo img{width:90px;}
-
 .fbox{display: flex;align-items: center;}
-
-img{width:90px;}
+.Popularites .popuTitre{display: flex;justify-content:space-between;}
 
 
 /* hebergements marseille flexbox */
@@ -97,7 +96,7 @@ img{width:90px;}
     height:190px;
     width:220px;
     justify-content: space-evenly;
-    filter: drop-shadow(0 0 0.20rem gray);
+    filter: drop-shadow(0 0 0.10rem gray);
 }
 .blockPopu figcaption {
     font: 12px;
@@ -108,7 +107,7 @@ img{width:90px;}
     min-width:100%;
    
     border-radius: 20px;
-    filter: drop-shadow(0 0 0.20rem gray)
+    filter: drop-shadow(0 0 0.10rem gray)
 }
 /* activités */
 .activites figcaption {
@@ -117,7 +116,7 @@ img{width:90px;}
     padding-top: 4px;
     padding-bottom: 4px;
     padding-top: 0px;
-    filter: drop-shadow(0 0 0.20rem gray);
+    filter: drop-shadow(0 0 0.10rem gray);
  
     width:100%;
     box-sizing: border-box;
@@ -129,9 +128,9 @@ img{width:90px;}
 }
 .touslesblocksactivites {
     height: 500px;
-    display: inline;
-    
+    display: inline;    
 }
+
 figure {
     display: flex;
     margin-left:20px;
@@ -165,7 +164,7 @@ P {
     font-size: 14px;   
 }
 .etoiles{font-size: 12px;margin-left:5px;position: absolute;bottom:10px;}
-.star{font-size: 12px;margin-left:5px;position: absolute;left:230px;bottom:10px;}
+.star{font-size: 12px;margin-left:5px;position: absolute;left:230px;bottom:10px;margin-bottom:20px;}
 .hbg p {
     text-align:left;
     font-size: 14px;
@@ -178,16 +177,17 @@ P {
 }
 .head,.info,.filtres{margin-left:2%;margin-right:2%;}
 header {
-    display: block;
+    display:flex;
 }
 .headerNavLink,
 .headerSignup {
     font-size: 18px;
-    
     text-decoration: none;}
 
-.headerNavLink{color:black}
-.headerSignup{font-weight: bold;color:#0065FC}
+.headerNavLink{color:black;margin-right: 20px;}
+
+.headerSignup{font-weight: bold;color:#0065FC;}
+
 a:hover {
     color:  #0065fc;
 }
@@ -232,6 +232,7 @@ i {
     justify-content: flex-end;
     width: 100%;
     flex-wrap: wrap-reverse;}
+
 .barreFiltre,
 h2 {
     display:inline-flex;
@@ -303,6 +304,7 @@ button {
     text-align: center;
     color: #0065FC;
 }
+
 .titre {
     margin: auto;
     font-weight: bold;

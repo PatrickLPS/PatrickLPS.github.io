@@ -3,17 +3,15 @@ html,
 body {
     margin-right: 10px;
     margin-left: 10px;
-    font-family: "Raleway";
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
 
+*{font-family: "Raleway";}
+h3{font-size:16px;}
 
 .logo img{width:90px;}
 .fbox{display: flex;align-items: center;}
-
-img{width:90px;}
-
+.Popularites .popuTitre{display: flex;justify-content:space-between;}
 
 /* hebergements marseille flexbox */
 .hebergementsetPopulaires {
@@ -75,7 +73,7 @@ img{width:90px;}
 }
 
 .imageplusPopulaires {
-    width:33%;
+    width:35%;
     height: 130px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -229,7 +227,7 @@ P {
 }
 
 
- .searchbarre .boxS{display:flex}
+ 
 .recherche {
     display: flex;}
    
@@ -297,6 +295,7 @@ i{
     justify-content: flex-end;
     width: 100%;
     flex-wrap: wrap-reverse;}
+
 .barreFiltre,
 h2 {
     display:inline-flex;
